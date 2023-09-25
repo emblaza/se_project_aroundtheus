@@ -9,3 +9,7 @@ Front-end project for sprint 3 at Tripleten's Software Engineering program. Crea
 - Flexbox
 - BEM
 - Grid
+
+## Github- pages link
+
+https://emblaza.github.io/se_project_aroundtheus/

@@ -1,25 +1,47 @@
 .page {
   font-family: "Inter", Arial, sans-serif;
   background-color: black;
-  padding: 45px 200px 0;
-  margin: 0;
+  margin: 0 auto;
   color: white;
+  max-width: 1280px;
+  position: relative;
+}
+
+.page__content {
+  max-width: 880px;
+  width: 100%;
+  margin: 45px auto;
+  position: relative;
 }
 @media screen and(max-width: 1100px) {
   .page {
     margin: 0 20px;
     max-width: calc(100% - 40px);
   }
+  .page__content {
+    max-width: 800px;
+  }
+}
+@media screen and (max-width: 950px) {
+  .page__content {
+    max-width: 700px;
+  }
 }
 @media screen and (max-width: 800px) {
-  .page {
-    padding: 30px 120px;
+  .page__content {
     max-width: 560px;
   }
 }
 
 @media screen and (max-width: 550px) {
-  .page {
-    padding: 27px 19px 36px;
+  .page__content {
+    max-width: 320px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .page__content {
+    max-width: 320px;
   }
 }
